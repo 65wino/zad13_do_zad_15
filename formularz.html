@@ -1,0 +1,104 @@
+ <!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz - Wiktor Brokos</title>
+</head>
+<body style="background-color:#f9f9ff; font-family:Arial;">
+    <h1>Formularz zgłoszeniowy-Pracownik budowlany</h1> 
+
+<TABLE>
+<h2>1.Dane osobowe</h2> 
+ <TR height="100"> 
+                          <TD width="500">  
+                               <b>Imię i nazwisko</b>  
+<input name="imie" size="22">  
+                               <br><br> 
+                               <b>Data urodzenia</b> 
+<input type="date">   
+                               <br><br> 
+                             <b>Adres zamieszkania </b> 
+ <input name="nazwisko" size="22">  
+                               <br><br> 
+                             <b>Kod pocztowy/Miejscowość</b> 
+<input name="login" size="30">
+                    <br><br>
+                         
+                               <b>Numer telefonu</b>  
+<input name="imie" size="13">  
+                               <br><br>
+                               <b>Adres e-mail</b>  
+<input name="imie" size="22">  
+                               <br><br> 
+                               <b>PESEL(opcjonalne)</b>  
+<input name="imie" size="22">  
+                               <br><br> 
+  <h2>2. Stanowisko i dostępność</h2>
+  Stanowisko, na które się zgłaszasz:<br>
+  <select name="stanowisko">
+    <option value="">-- wybierz --</option>
+    <option value="Kierownik budowy">Kierownik budowy</option>
+    <option value="Inspektor">Inspektor nadzoru budowlanego</option>
+    <option value="Inżynier">Inżynier Budowy</option>
+    <option value="Sanitarne">Kierownik robót sanitarnych</option>
+    <option value="Mostowe">Kierownik robót mostowych</option>
+    <option value="Hydrotechniczne">Kierownik robót hydrotechnicznych</option>
+  </select><br><br>
+
+  Gotowość do rozpoczęcia pracy: <input type="date" name="start"><br><br>
+
+  Preferowany rodzaj umowy:<br>
+  <input type="radio" name="umowa" value="praca"> Umowa o pracę<br>
+  <input type="radio" name="umowa" value="zlecenie"> Umowa zlecenie<br>
+  <input type="radio" name="umowa" value="dzialalnosc"> Działalność gospodarcza<br>
+  <input type="radio" name="umowa" value="inne"> Inne<br><br>
+
+  Gotowość do delegacji:<br>
+  <input type="radio" name="delegacja" value="tak"> Tak
+  <input type="radio" name="delegacja" value="nie"> Nie<br><br>
+
+  Posiadane prawo jazdy:<br>
+  <input type="radio" name="prawojazdy" value="tak"> Tak
+  <input type="radio" name="prawojazdy" value="nie"> Nie<br><br>
+</td>
+
+<td width="33%">
+  <h2>3. Doświadczenie zawodowe</h2>
+  Stanowisko: <input type="text" name="dosw1"><br><br>
+  Okres zatrudnienia (od–do): <input type="text" name="okres1"><br><br>
+  Zakres obowiązków:<br>
+  <textarea name="obowiazki1" rows="3" cols="30"></textarea><br><br>
+
+  Stanowisko: <input type="text" name="dosw2"><br><br>
+  Okres zatrudnienia (od–do): <input type="text" name="okres2"><br><br>
+  Zakres obowiązków:<br>
+  <textarea name="obowiazki2" rows="3" cols="30"></textarea><br><br>
+
+  <h2>4. Umiejętności i uprawnienia</h2>
+  <input type="checkbox" name="umiejetnosci" value="maszyny"> Obsługa maszyn budowlanych<br>
+  <input type="checkbox" name="umiejetnosci" value="sep"> Uprawnienia SEP / wysokościowe / spawalnicze<br>
+  <input type="checkbox" name="umiejetnosci" value="rysunek"> Znajomość rysunku technicznego<br>
+  <input type="checkbox" name="umiejetnosci" value="inne"> Inne<br>
+</td>
+
+<td width="33%">
+  <h2>5. Wykształcenie</h2>
+  Szkoła / Uczelnia: <input type="text" name="szkola"><br><br>
+  Kierunek: <input type="text" name="kierunek"><br><br>
+  Lata nauki: <input type="text" name="lata"><br><br>
+  Uzyskany tytuł: <input type="text" name="tytul"><br><br>
+
+  <h2>6. Zgody i podpis</h2>
+  <input type="checkbox" name="rodo" required> 
+  Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb rekrutacji (RODO).<br><br>
+
+  Data: <input type="date" name="data"><br><br>
+  Podpis: <input type="text" name="podpis"><br><br>
+</td>
+        </TR> 
+ 
+  </TABLE>
+</tr> </table> <center> <br> <input type="submit" value="Wyślij zgłoszenie"> <input type="reset" value="Wyczyść formularz"> </center> 
+</form> 
+ </body> 
+</html>
